@@ -13,6 +13,7 @@
 }
 
 .section-title {
+  text-align: center;
   font-size: 40px;
   color: #252432;
   font-weight: bold;
@@ -102,17 +103,49 @@ main {
 /* user section styles */
 .user-details {
   padding: 15px 180px;
-    background-color: hsl(279, 100%, 95%) ;
-    margin-top: 116px;
+  background-color: hsl(279, 100%, 95%);
+  margin-top: 116px;
+  border-radius: 10px;
 }
 
 .user-numbers {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 10px;
 }
 
 .user-numbers h3 {
   font-size: 50px;
+}
+
+/* user feedback styles */
+.user-feedback {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.feedback-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.feedback {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-inline: 10px;
+}
+
+.f-user {
+    display: flex;
+    align-items: center;
+    
+}
+
+.f-user img {
+    border-radius: 50%;
+    margin-right: 15px;
 }
