@@ -120,7 +120,6 @@ main {
 
 /* user feedback styles */
 .user-feedback {
-  background-color: #d9d9d9;
   border-radius: 10px;
 }
 
@@ -129,14 +128,15 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  gap: 15px;
 
 }
 
 .feedback {
-  background-color: #ffffff;
   border-radius: 10px;
   padding: 10px;
-  margin-inline: 10px;
+  /* margin-inline: 10px; */
+  box-shadow: 0 1px 10px rgb(0, 0, 0, 0.1);
 }
 
 .f-user {
@@ -148,4 +148,53 @@ main {
 .f-user img {
     border-radius: 50%;
     margin-right: 15px;
+}
+
+/* let's get in touch section */
+.get-in-touch{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 115px 50px;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+/* footer styles */
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 50px;
+}
+footer h1{
+  font-size: 100px;
+  color: #4e47ff;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  margin: 0 20px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #252432;
+}
+
+
+button:hover {
+  background-color: bisque;
+  color: #252432;
+  cursor: pointer;
 }
