@@ -100,3 +100,19 @@ main {
 }
 
 /* user section styles */
+.user-details {
+  padding: 15px 180px;
+    background-color: hsl(279, 100%, 95%) ;
+    margin-top: 116px;
+}
+
+.user-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.user-numbers h3 {
+  font-size: 50px;
+}
